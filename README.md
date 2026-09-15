@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github&style=flat-square">
   </a>
   <a href="#"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square"></a>
-  <a href="https://hoangviet1810.github.io/DPE/">
+  <a href="https://ndhviet.github.io/DPE/">
   <img src="https://img.shields.io/badge/Demo-Live%20Website-brightgreen?style=for-the-badge&logo=googlechrome&logoColor=white">
 </a>
 </div>
