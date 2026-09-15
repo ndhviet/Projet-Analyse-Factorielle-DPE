@@ -23,9 +23,9 @@ website:
         
     right:
       - icon: github
-        href: https://github.com/Hoangviet1810/Projet-Analyse-Factorielle-DPE/tree/main
+        href: https://github.com/ndhviet/Projet-Analyse-Factorielle-DPE
       - text: "Portfolio de Viet"
-        href: https://hoangviet1810.github.io/
+        href: https://ndhviet.github.io/
         aria-label: "Portfolio"
       - icon: linkedin           # <--- Thêm icon LinkedIn tại đây
         href: https://www.linkedin.com/in/hoang-viet1810/?isSelfProfile=false
