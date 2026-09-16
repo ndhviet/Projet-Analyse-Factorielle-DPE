@@ -44,48 +44,6 @@
 .bar-bg{background:#e8f0fe;border-radius:2px;height:7px;width:100%;overflow:hidden;margin:2px 0 5px;}
 .bar{height:7px;border-radius:2px;}
 .foot{font-size:10px;color:#7097b8;text-align:right;padding:5px 10px 10px;}
-
-/* ══════════════════════════════════
-   RESPONSIVE — Tablette (≤ 1024px)
-══════════════════════════════════ */
-@media (max-width: 1024px){
-  .hdr{flex-direction:column;align-items:flex-start;gap:10px;}
-  .hdr-right{align-items:flex-start;}
-  .hdr-right > div{justify-content:flex-start !important;}
-  .kpi-row{grid-template-columns:repeat(2,minmax(0,1fr));}
-  .grid4{grid-template-columns:repeat(2,minmax(0,1fr));}
-}
-
-/* ══════════════════════════════════
-   RESPONSIVE — Mobile (≤ 640px)
-══════════════════════════════════ */
-@media (max-width: 640px){
-  .hdr{padding:12px 14px;}
-  .hdr-title{font-size:16px;}
-  .hdr-sub{font-size:9px;}
-  .kpi-row{grid-template-columns:repeat(2,minmax(0,1fr));padding:8px;gap:6px;}
-  .kpi{padding:8px 10px;}
-  .kpi-v{font-size:18px;}
-  .grid4{grid-template-columns:1fr;padding:0 8px 8px;gap:8px;}
-  /* toàn bộ card xếp chồng 1 cột, kể cả những card đang grid-column:span 2 */
-  .card{grid-column:1 / -1 !important;}
-  .ct{font-size:10.5px;}
-  .li{font-size:9px;}
-  .tbl th{font-size:8.5px;}
-  .tbl td{font-size:9.5px;}
-  .foot{text-align:left;padding:5px 12px 10px;}
-  .foot-bar{flex-direction:column;align-items:flex-start !important;gap:8px;padding:10px 14px 14px !important;}
-  .foot-bar > div{font-size:8.5px !important;}
-  .foot-bar a{font-size:8.5px !important;white-space:normal !important;word-break:break-all;}
-}
-
-/* ══════════════════════════════════
-   RESPONSIVE — Très petit (≤ 380px)
-══════════════════════════════════ */
-@media (max-width: 380px){
-  .kpi-row{grid-template-columns:1fr;}
-  .hdr-title{font-size:14px;}
-}
 </style>
 
 <div class="db">
@@ -252,7 +210,7 @@
 
 </div>
 
-<div class="foot-bar" style="padding:10px 18px 14px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(21,101,192,0.15);margin-top:4px;">
+<div style="padding:10px 18px 14px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(21,101,192,0.15);margin-top:4px;">
   <div style="font-size:9px;color:#7097b8;font-weight:700;letter-spacing:.04em;"><strong>Sources : ADEME open data · Analyse : Duc Hoang Viet Nguyen — Université de Lille, M1 Mathématiques &amp; Applications, 2025–2026</strong></div>
   <a href="https://github.com/ndhviet/Projet-Analyse-Factorielle-DPE/tree/main"
      style="display:inline-flex;align-items:center;gap:6px;font-size:9px;color:#1565c0;border:1px solid rgba(21,101,192,0.35);padding:4px 10px;border-radius:2px;letter-spacing:.08em;text-decoration:none;font-weight:600;text-transform:uppercase;white-space:nowrap;"

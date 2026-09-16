@@ -44,48 +44,6 @@
 .bar-bg{background:#e8f0fe;border-radius:2px;height:7px;width:100%;overflow:hidden;margin:2px 0 5px;}
 .bar{height:7px;border-radius:2px;}
 .foot{font-size:10px;color:#7097b8;text-align:right;padding:5px 10px 10px;}
-
-/* ══════════════════════════════════
-   RESPONSIVE — Tablette (≤ 1024px)
-══════════════════════════════════ */
-@media (max-width: 1024px){
-  .hdr{flex-direction:column;align-items:flex-start;gap:10px;}
-  .hdr-right{align-items:flex-start;}
-  .hdr-right > div{justify-content:flex-start !important;}
-  .kpi-row{grid-template-columns:repeat(2,minmax(0,1fr));}
-  .grid4{grid-template-columns:repeat(2,minmax(0,1fr));}
-}
-
-/* ══════════════════════════════════
-   RESPONSIVE — Mobile (≤ 640px)
-══════════════════════════════════ */
-@media (max-width: 640px){
-  .hdr{padding:12px 14px;}
-  .hdr-title{font-size:16px;}
-  .hdr-sub{font-size:9px;}
-  .kpi-row{grid-template-columns:repeat(2,minmax(0,1fr));padding:8px;gap:6px;}
-  .kpi{padding:8px 10px;}
-  .kpi-v{font-size:18px;}
-  .grid4{grid-template-columns:1fr;padding:0 8px 8px;gap:8px;}
-  /* toàn bộ card xếp chồng 1 cột, kể cả những card đang grid-column:span 2 */
-  .card{grid-column:1 / -1 !important;}
-  .ct{font-size:10.5px;}
-  .li{font-size:9px;}
-  .tbl th{font-size:8.5px;}
-  .tbl td{font-size:9.5px;}
-  .foot{text-align:left;padding:5px 12px 10px;}
-  .foot-bar{flex-direction:column;align-items:flex-start !important;gap:8px;padding:10px 14px 14px !important;}
-  .foot-bar > div{font-size:8.5px !important;}
-  .foot-bar a{font-size:8.5px !important;white-space:normal !important;word-break:break-all;}
-}
-
-/* ══════════════════════════════════
-   RESPONSIVE — Très petit (≤ 380px)
-══════════════════════════════════ */
-@media (max-width: 380px){
-  .kpi-row{grid-template-columns:1fr;}
-  .hdr-title{font-size:14px;}
-}
 </style>
 
 <div class="db">
@@ -98,7 +56,7 @@
     <div class="hdr-badge"><strong>ISN · UNIV. LILLE · 2026</strong></div>
     <div style="display:flex;align-items:center;gap:8px;margin-top:2px;">
       <div class="hdr-credit"><strong>Created by Nguyen Duc Hoang Viet</strong></div>
-      <a href="https://github.com/ndhviet/Projet-Analyse-Factorielle-DPE/tree/main"
+      <a href="https://github.com/Hoangviet1810/Projet-Analyse-Factorielle-DPE/tree/main"
          style="display:inline-flex;align-items:center;gap:4px;font-size:9px;color:#1565c0;border:1px solid rgba(21,101,192,0.35);padding:2px 7px;border-radius:2px;letter-spacing:.06em;text-decoration:none;font-weight:600;"
          onmouseover="this.style.background='rgba(21,101,192,0.08)'" onmouseout="this.style.background='transparent'">
         <svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
@@ -252,13 +210,13 @@
 
 </div>
 
-<div class="foot-bar" style="padding:10px 18px 14px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(21,101,192,0.15);margin-top:4px;">
+<div style="padding:10px 18px 14px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(21,101,192,0.15);margin-top:4px;">
   <div style="font-size:9px;color:#7097b8;font-weight:700;letter-spacing:.04em;"><strong>Sources : ADEME open data · Analyse : Duc Hoang Viet Nguyen — Université de Lille, M1 Mathématiques &amp; Applications, 2025–2026</strong></div>
-  <a href="https://github.com/ndhviet/Projet-Analyse-Factorielle-DPE/tree/main"
+  <a href="https://github.com/Hoangviet1810/Projet-Analyse-Factorielle-DPE/tree/main"
      style="display:inline-flex;align-items:center;gap:6px;font-size:9px;color:#1565c0;border:1px solid rgba(21,101,192,0.35);padding:4px 10px;border-radius:2px;letter-spacing:.08em;text-decoration:none;font-weight:600;text-transform:uppercase;white-space:nowrap;"
      onmouseover="this.style.background='rgba(21,101,192,0.08)'" onmouseout="this.style.background='transparent'">
     <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-    github.com/ndhviet/Projet-Analyse-Factorielle-DPE
+    github.com/Hoangviet1810/Projet-Analyse-Factorielle-DPE
   </a>
 </div>
 </div>
