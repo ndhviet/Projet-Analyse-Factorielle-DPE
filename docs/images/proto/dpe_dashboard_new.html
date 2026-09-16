@@ -49,13 +49,11 @@
    RESPONSIVE — Tablette (≤ 1024px)
 ══════════════════════════════════ */
 @media (max-width: 1024px){
-  .hdr{flex-direction:column;align-items:center;gap:10px;text-align:center;}
-  .hdr-left{align-items:center;}
-  .hdr-right{align-items:center;}
-  .hdr-right > div{justify-content:center !important;}
+  .hdr{flex-direction:column;align-items:flex-start;gap:10px;}
+  .hdr-right{align-items:flex-start;}
+  .hdr-right > div{justify-content:flex-start !important;}
   .kpi-row{grid-template-columns:repeat(2,minmax(0,1fr));}
-  .grid4{grid-template-columns:1fr;}
-  .card{grid-column:1 / -1 !important;}
+  .grid4{grid-template-columns:repeat(2,minmax(0,1fr));}
 }
 
 /* ══════════════════════════════════
