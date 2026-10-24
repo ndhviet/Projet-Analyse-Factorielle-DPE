@@ -31,9 +31,6 @@ L'étude porte sur la performance énergétique de **1000 logements individuels*
 - Visualiser les profils de logements et l'impact du type de chauffage
 - Réaliser des tests statistiques (Chi-deux, ANOVA, t-tests)
 
-📄 [Rapport complet (PDF)](ProjetDPE.pdf) · 👉 [Voir le site en ligne](https://hoangviet1810.github.io/DPE/)
-
-
 📄 [Rapport complet (PDF)](https://ndhviet.github.io/Projet-Analyse-Factorielle-DPE/ProjetDPE.pdf) · 👉 [Voir le site en ligne](https://ndhviet.github.io/DPE/)
 
 Deux codes accompagnent ce projet : un fichier **Python** pour les visualisations et un fichier **R** pour les tests statistiques.
