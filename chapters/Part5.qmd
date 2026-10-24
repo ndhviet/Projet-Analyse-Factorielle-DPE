@@ -21,7 +21,7 @@ Hypothèse:
 -H1: La classe de consommation dépend du type de chauffage.
 
 ```{r}
-data_dpe <- read.table("data_dpe.txt", header = TRUE, sep = "")
+data_dpe <- read.table("data/data_dpe.txt", header = TRUE, sep = "")
 type_energie_chauffage <-data_dpe$type_energie_chauffage
 classe_conso_energie <- data_dpe$classe_conso_energie
 barplot(table(type_energie_chauffage,classe_conso_energie),beside=TRUE,

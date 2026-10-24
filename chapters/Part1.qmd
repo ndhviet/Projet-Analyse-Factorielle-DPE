@@ -33,7 +33,6 @@ Les variables sélectionnées pour cette étude sont les suivantes :
 -   **emission_ges** : émissions de gaz à effet de serre en kg éq.CO$_2$/m² — variable quantitative.
 
 ```{r}
-data_dpe <- read.table("data_dpe.txt", header = TRUE, sep = "")
+data_dpe <- read.table("data/data_dpe.txt", header = TRUE, sep = "")
 head(data_dpe)
 ```
-

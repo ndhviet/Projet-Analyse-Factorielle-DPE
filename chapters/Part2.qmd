@@ -15,7 +15,7 @@ execute:
 ### Ancienneté
 
 ```{r}
-data_dpe <- read.table("data_dpe.txt", header = TRUE, sep = "")
+data_dpe <- read.table("data/data_dpe.txt", header = TRUE, sep = "")
 data_dpe$anciennete = 2021 - data_dpe$annee_construction
 summary(data_dpe$anciennete)
 ```

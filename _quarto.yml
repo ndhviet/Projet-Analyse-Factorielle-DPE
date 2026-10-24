@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  execute-dir: project
 
 website:
   title: "Projet Analyse Factorielle DPE"
@@ -10,15 +11,15 @@ website:
     left:
       - href: index.qmd
         text: Accueil
-      - href: Part1.qmd
+      - href: chapters/Part1.qmd
         text: "Introduction "
-      - href: Part2.qmd
+      - href: chapters/Part2.qmd
         text: "Analyse descriptive"
-      - href: Part3.qmd
+      - href: chapters/Part3.qmd
         text: "ACP "
-      - href: Part4.qmd
+      - href: chapters/Part4.qmd
         text: "ACM "
-      - href: Part5.qmd
+      - href: chapters/Part5.qmd
         text: "Test "
         
     right:
@@ -27,7 +28,7 @@ website:
       - text: "Portfolio de Viet"
         href: https://ndhviet.github.io/
         aria-label: "Portfolio"
-      - icon: linkedin           # <--- Thêm icon LinkedIn tại đây
+      - icon: linkedin           
         href: https://www.linkedin.com/in/hoang-viet1810/?isSelfProfile=false
         aria-label: "LinkedIn"
         
@@ -44,8 +45,8 @@ website:
 format:
   html:
     theme: flatly
-    css: custom.css
-    include-after-body: [loading.html, footer.html]
+    css: assets/custom.css
+    include-after-body: [assets/loading.html, assets/footer.html]
     toc: true
     toc-location: right
     toc-title: "Sur cette page" 

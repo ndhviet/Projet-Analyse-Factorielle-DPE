@@ -14,7 +14,7 @@ On va réaliserer une Analyse en Composantes Principales (ACP) afin d’explorer
 les variables quantitatives et de visualiser les corrélations entre elles.
 
 ```{r}
-data_dpe <- read.table("data_dpe.txt", header = TRUE, sep = "")
+data_dpe <- read.table("data/data_dpe.txt", header = TRUE, sep = "")
 housing <- data_dpe
 data <- housing[, c("annee_construction","surface_habitable","conso_energie","emission_ges")]
 boxplot(data,las=1,cex.axis = 0.75, col = "darkorange")

@@ -14,7 +14,7 @@ On va réaliserer une Analyse des correspondances multiples (ACM) afin d’explo
 entre les variables qualitatives et de visualiser les associations entre elles.
 
 ```{r}
-data_dpe <- read.table("data_dpe.txt", header = TRUE, sep = "")
+data_dpe <- read.table("data/data_dpe.txt", header = TRUE, sep = "")
 data1 <- data_dpe[, c("type_logement", "type_energie_chauffage", "classe_conso_energie")]
 ```
 
