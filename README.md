@@ -37,23 +37,14 @@ Deux codes accompagnent ce projet : un fichier **Python** pour les visualisation
 
 ---
 
-## 2. Installation
-
-```sh
-git clone https://github.com/Hoangviet1810/Projet-Analyse-Factorielle-DPE.git
-cd Projet-Analyse-Factorielle-DPE
-```
-
----
-
-## 3. Logiciels utilisés
+## 2. Logiciels utilisés
 
 - **Python** (visualisations) : Pandas, NumPy, Matplotlib, Seaborn, Prince
 - **R** (tests statistiques) : `FactoMineR`, `factoextra`
 
 ---
 
-## 4. Structure des données
+## 3. Structure des données
 
 | Variable                | Type      | Description                                    |
 |-------------------------|-----------|------------------------------------------------|
@@ -67,7 +58,7 @@ cd Projet-Analyse-Factorielle-DPE
 
 ---
 
-## 5. Analyses réalisées
+## 4. Analyses réalisées
 
 - **Statistiques descriptives** : moyenne, médiane, variance, coefficient de variation ; barplots pour les variables catégorielles
 - **Visualisations** : histogrammes, boxplots, cercle de corrélation (ACP), MCA plots (ACM)
@@ -80,16 +71,16 @@ cd Projet-Analyse-Factorielle-DPE
 
 ---
 
-## 6. Résultats
+## 5. Résultats
 
-### 6.1 Test ANOVA
+### 5.1 Test ANOVA
 
 | Test | H0 | Statistique | p-value | Conclusion | Moyenne(s) |
 |------|----|-------------|---------|------------|------------|
 | Conso énergie vs type_logement | Pas de différence entre Maison et Appartement | F = 11.1 | 0.000894 | H0 rejetée → différence significative | Maison: 197.63<br>Appartement: 176.48 kWh/m²/an |
 | Émissions GES vs type_energie_chauffage (Welch) | Moyennes égales | F = 219.53 | < 2.2e-16 | H0 rejetée → émissions dépendent du chauffage | Gaz: 33.6<br>Électricité: 11.1<br>Autre: 55.5 |
 
-### 6.2 Tests t de Student par paires
+### 5.2 Tests t de Student par paires
 
 | Comparaison | p-value | Conclusion |
 |-------------|---------|------------|
@@ -97,7 +88,7 @@ cd Projet-Analyse-Factorielle-DPE
 | Gaz vs Autre | 0.0053 | Significative |
 | Électricité vs Autre | 1.8e-06 | Extrêmement significative |
 
-### 6.3 Interprétation
+### 5.3 Interprétation
 
 - Les **maisons** consomment plus que les **appartements** et se retrouvent plus souvent dans les classes D, E, F.
 - Les logements chauffés à l'**électricité** ont de meilleures performances (classes B, C) et émettent le moins de GES.
@@ -106,7 +97,7 @@ cd Projet-Analyse-Factorielle-DPE
 
 ---
 
-## 7. Visualisations
+## 6. Visualisations
 
 1. **Distribution du type de logement** : barplot appartements / maisons
 2. **Classe énergétique par type de chauffage** : barplot groupé (A à G)
