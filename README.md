@@ -19,29 +19,7 @@
 </div>
 <br>
 
-
-# Projet-Analyse-Factorielle-DPE
-
 # Analyse de la consommation énergétique et des émissions de GES des logements
-
-
-
-<div align="center">
-  <h1>Projet Analyse Factorielle DPE</h1>
-  <p><em>Analyse statistique de la consommation énergétique et des émissions de GES des logements</em></p>
-
-  <a href="#"><img src="https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white&style=flat-square"></a>
-  <a href="#"><img src="https://img.shields.io/badge/R-4.x-276DC3?logo=r&logoColor=white&style=flat-square"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Statistics-ANOVA%20%7C%20Chi--Square-blue?style=flat-square"></a>
-  <a href="#"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square"></a>
-  <a href="https://github.com/Hoangviet1810/Projet-Analyse-Factorielle-DPE">
-    <img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github&style=flat-square">
-  </a>
-  <a href="https://ndhviet.github.io/DPE/">
-    <img src="https://img.shields.io/badge/Demo-Live%20Website-brightgreen?style=for-the-badge&logo=googlechrome&logoColor=white">
-  </a>
-</div>
-<br>
 
 ## 1. Introduction
 
