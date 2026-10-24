@@ -166,8 +166,6 @@ Les visualisations finales sont créées pour l'analyse DPE et couvrent les aspe
 4. **Analyse en Composantes Principales (ACP) :** Un cercle de corrélation représentant les relations entre surface habitable, consommation d'énergie et émissions de GES.  
 5. **Tests Statistiques et Émissions :** Tableaux (ANOVA, tests t) et boxplots analysant l'impact du type de chauffage sur les émissions de gaz à effet de serre.  
 
-![Dashboard DPE](images/Dashboard_DPE.png)
-
 ### Dashboard interactif
 
 [![Dashboard](images/Dashboard_DPE.png)](https://ndhviet.github.io/Projet-Analyse-Factorielle-DPE/images/dpe_dashboard.html)
